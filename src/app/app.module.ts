@@ -9,6 +9,9 @@ import { HeroesModule } from './heroes/heroes.module';
 import { MainPageComponent } from './dbz/pages/main-page.component';
 import { DbzModule } from './dbz/dbz.module';
 
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
