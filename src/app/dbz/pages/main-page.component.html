@@ -1,0 +1,18 @@
+
+<h1>DBZ Main Page</h1>
+<hr>
+
+<div class="row">
+
+  <div class="col">
+   <dbz-list [personajeList]="personajes"
+   (eliminar)="onElimilinarPersonaje($event)"></dbz-list>
+  </div>
+
+  <div class="col">
+    <dbz-agregar-personaje (nuevoPersonaje)="onNuevoPersonaje($event)"></dbz-agregar-personaje>
+  </div>
+
+</div>
+
+
